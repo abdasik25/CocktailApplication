@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="480dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingTop="5dp"
+        android:paddingRight="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503">
+
+        <EditText
+            android:id="@+id/txtAlcohol"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Alcohol"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Name"
+            android:inputType=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtCategory"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Category"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtGlass"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Glass"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtID"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="ID"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ADD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/getFromAPIButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="RANDOM"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toEndOf="@+id/btnAdd"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.833" />
+</android.support.constraint.ConstraintLayout>

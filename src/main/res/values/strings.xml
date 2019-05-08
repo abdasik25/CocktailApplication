@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PMD</string>
+    <string name="cinemaName">Golden Screen</string>
+    <string name="cinema">Cinema</string>
+    <string name="btnRename">Rename</string>
+    <string name="btnAdd">Add Film</string>
+    <string name="btnGallery">Gallery</string>
+    <string name="lastFilm">"Last added film:"</string>
+    <string name="unknown">Unknown</string>
+</resources>
